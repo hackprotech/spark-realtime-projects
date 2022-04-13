@@ -18,4 +18,5 @@ https://www.youtube.com/playlist?list=PLqxkdRjsG2vUDz1DCauy4M_xCSjMSqYhO
 
 - How to write Spark Code from scratch?
 - How spark creating partitions in local?
+- Word Count Program
 - stay tuned......
