@@ -1,6 +1,6 @@
 # Apache Spark
 
-**Youtube Link**
+**YouTube Link**
 https://www.youtube.com/playlist?list=PLqxkdRjsG2vUDz1DCauy4M_xCSjMSqYhO
 
 **Concepts**
@@ -22,4 +22,9 @@ https://www.youtube.com/playlist?list=PLqxkdRjsG2vUDz1DCauy4M_xCSjMSqYhO
 - Transformations
 - Actions
 - Lazy Evaluation
-- stay tuned......
+
+**Advanced**
+
+- Spark Session
+
+stay tuned......

@@ -8,3 +8,4 @@ val sparkVersion = "3.1.2"
 
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
+libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion
