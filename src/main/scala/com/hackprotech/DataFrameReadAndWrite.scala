@@ -22,12 +22,12 @@ object DataFrameReadAndWrite {
     //    sourceBikeDF.show()
 
     //    Manipulate DF
-    val extractedDF = sourceBikeDF.select("bike_name", "brand", "owner").where(col("owner") === "First Owner")
+    //    val extractedDF = sourceBikeDF.select("bike_name", "brand", "owner").where(col("owner") === "First Owner")
 
     //    FOR REFERENCE
-    //    val extractedDF = sourceBikeDF.select("bike_name", "brand", "owner")
-    //          .where(col("owner") === "First Owner")
-    //          .filter("brand == 'TVS'")       ----- Runtime Evaluation
+    val extractedDF = sourceBikeDF.select("bike_name", "brand", "owner")
+      .where(col("owner") === "First Owner")
+      .filter("brand_sample == 'TVS'")
 
     //    extractedDF.show(extractedDF.count().toInt, false)
     println(sourceBikeDF.count())
